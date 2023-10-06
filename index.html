@@ -12,15 +12,39 @@
         <h1>Battle of Neopia</h1>
         <h2>Choose Your Fighter</h2>
         <div class="fighters">
-            <div><img src="Imgs/cat-red.png"></div>
-            <div><img src="Imgs/dog-green.png"></div>
-            <div><img src="Imgs/dragon-yellow.png"></div>
-            <div><img src="Imgs/ogrin-blue.png"></div>
-            <div><img src="Imgs/griffin-red.png"></div>
-            <div><img src="Imgs/horse-green.png"></div>
+            <div id="f-1"><img src="Imgs/cat-red.png"></div>
+            <div id="f-2"><img src="Imgs/dog-green.png"></div>
+            <div id="f-3"><img src="Imgs/dragon-yellow.png"></div>
+            <div id="f-4"><img src="Imgs/ogrin-blue.png"></div>
+            <div id="f-5"><img src="Imgs/griffin-red.png"></div>
+            <div id="f-6"><img src="Imgs/horse-green.png"></div>
         </div>
+        <div class="winner-message"><h3>Fight Below</h3></div>
+        <div class="arena">
+            <div class="scores">
+                <h3>Score</h3>
+                <p>You: <span id="player-score">1</span></p>
+                <p>You: <span id="enemy-score">0</span></p>
+            </div>
+            <div class="arena">
+                <div id="your-fighter">
+                    <p>Your Fighter</p>
+                    <img height="100"  src="Imgs/egg.png">
+                    <p>Fighting power: <span class="your-power">5</span></p>
+                </div>
+                <p>VS</p>
+                <div id="enemy-fighter">
+                    <p>Enemy's Fighter</p>
+                    <img height="100" src="Imgs/egg.png">
+                    <p>Fighting power: <span class="enemy-power">4</span>
+                </div>
+            </div>                
+            <div class="powerups">placeholder powerups</div>
 
-        
+        </div>
+        <div class="play-again"><button>Play Again</button></div>
+
+
 
     </main>
     

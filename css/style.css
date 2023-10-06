@@ -33,6 +33,15 @@ main {
 
 
 }
+.arena {
+    display : inline-flex;
+    margin: 0 150px 0 150px;
+    align-content: space-evenly;
+    background-color: #ffffff;
+    border: 1px solid orange;
+
+
+}
 
 main > div.fighters > div > img {
     border: 1px solid pink;
