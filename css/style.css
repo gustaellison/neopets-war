@@ -24,7 +24,7 @@ main {
     grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.fighters {
+ul {
     display : inline-flex;
     margin: 0 150px 0 150px;
     align-content: space-evenly;

@@ -11,32 +11,34 @@
     <main>
         <h1>Battle of Neopia</h1>
         <h2>Choose Your Fighter</h2>
-        <div class="fighters">
-            <div id="f-1"><img src="Imgs/cat-red.png"></div>
-            <div id="f-2"><img src="Imgs/dog-green.png"></div>
-            <div id="f-3"><img src="Imgs/dragon-yellow.png"></div>
-            <div id="f-4"><img src="Imgs/ogrin-blue.png"></div>
-            <div id="f-5"><img src="Imgs/griffin-red.png"></div>
-            <div id="f-6"><img src="Imgs/horse-green.png"></div>
-        </div>
-        <div class="winner-message"><h3>Fight Below</h3></div>
+        <ul>
+            <img class="fighters" id="0" height= 200px src="">
+            <p id="f0valuetext"></p>
+            <img class="fighters" id="1" height= 200px src="">
+            <p id="f1valuetext"></p>
+            <img class="fighters" id="2" height= 200px src="">
+            <img class="fighters" id="3" height= 200px src="">
+            <img class="fighters" id="4" height= 200px src="">
+            <img class="fighters" id="5" height= 200px src="">
+        </ul>
+        <div id="winner-message"><h3>Fight Below</h3></div>
         <div class="arena">
             <div class="scores">
                 <h3>Score</h3>
-                <p>You: <span id="player-score">1</span></p>
-                <p>You: <span id="enemy-score">0</span></p>
+                <p>You: <span id="player-score">?</span></p>
+                <p>Enemy: <span id="enemy-score">?</span></p>
             </div>
             <div class="arena">
-                <div id="your-fighter">
+                <div>
                     <p>Your Fighter</p>
-                    <img height="100"  src="Imgs/egg.png">
-                    <p>Fighting power: <span class="your-power">5</span></p>
+                    <img height="100"  src="Imgs/egg.png" id="your-fighter">
+                    <p>Fighting power: <span id="your-power">?</span></p>
                 </div>
                 <p>VS</p>
-                <div id="enemy-fighter">
+                <div >
                     <p>Enemy's Fighter</p>
-                    <img height="100" src="Imgs/egg.png">
-                    <p>Fighting power: <span class="enemy-power">4</span>
+                    <img height="100" src="Imgs/egg.png" id="enemy-fighter">
+                    <p>Fighting power: <span id="enemy-power">?</span>
                 </div>
             </div>                
             <div class="powerups">placeholder powerups</div>
